@@ -48,7 +48,7 @@ Tools targeting Layer 2 (Data Link) vulnerabilities in local networks.
 #### 🔍 **Scanning**
 Custom TCP-based port scanning techniques.
 - `synScan.py` – Half-open SYN scanner (stealthy, doesn’t complete TCP handshake).
-- `xmasScan.py` – Xmas scan using FIN+PSH+URG flags to probe ports.
+- `xmasScan.py` - Detects signs of XMAS scanning.
 
 #### 💀 **TCP Shells**
 Reverse and bind shell implementations over raw TCP sockets.
